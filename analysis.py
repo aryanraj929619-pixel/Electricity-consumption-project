@@ -78,3 +78,28 @@ plt.savefig(GRAPH_DIR / "consumption_trend.png")
 plt.show()
 
 print("\nGraph saved successfully in graphs folder!")
+
+# Monthly Consumption Bar Chart
+
+month_labels = df["date"].dt.strftime("%b")
+
+plt.figure(figsize=(10, 5))
+
+plt.bar(month_labels, df["consumption_kwh"])
+
+plt.title("Monthly Electricity Consumption")
+
+plt.xlabel("Month")
+
+plt.ylabel("Consumption (kWh)")
+
+plt.grid(axis="y", linestyle="--", alpha=0.5)
+
+plt.tight_layout()
+
+# Save bar chart
+plt.savefig(GRAPH_DIR / "monthly_consumption.png")
+
+plt.show()
+
+print("Monthly bar chart saved successfully!")
