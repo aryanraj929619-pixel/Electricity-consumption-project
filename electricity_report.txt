@@ -1,0 +1,21 @@
+
+ELECTRICITY CONSUMPTION REPORT
+================================
+
+Total Consumption: 2095 kWh
+Average Consumption: 174.58 kWh
+
+Maximum Consumption: 240 kWh
+Minimum Consumption: 120 kWh
+
+Highest Consumption Month: July
+Lowest Consumption Month: January
+
+ENERGY CONSERVATION SUGGESTIONS
+
+1. Switch off unnecessary electrical appliances.
+2. Use LED lights to save electricity.
+3. Use energy-efficient appliances.
+4. Monitor electricity consumption regularly.
+
+Note: This report uses illustrative sample data.
